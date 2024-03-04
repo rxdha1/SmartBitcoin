@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Webpage</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    color: orange;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>BT-20 TOKEN STANDARD</h1>
+  <h2>INTRODUCTION</h2>
+  <p>What is a Token? Tokens can represent virtually anything in Bitcoin: reputation points in an online platform skills of a character in a game lottery tickets financial assets like a share in a company a fiat currency like USD an ounce of gold and more... Such a powerful feature of Bitcoin must be handled by a robust standard, right? That's exactly where the SBT-20 plays its role! This standard allows developers to build smart token applications that are interoperable with other products and services in the Bitcoin Network</p>
+  
+  <h2>What is SBT-20?</h2>
+  <p>The SBT-20 introduces a standard for Fungible Tokens, in other words, they have a property that makes each Token be exactly the same (in type and value) as another Token. Meaning 1 Token is and will always be equal to all the other Tokens.</p>
+  
+  <h2>PREREQUISITES</h2>
+  <p>Accounts: Smart Contracts: Token standards:</p>
+  
+  <h2>BODY</h2>
+  <p>The SBT-20 (Bitcoin Smart Tokens 20), builds on the ERC-20 standard proposed by Fabian Vogelsteller in November 2015, which is a Token Standard that implements an API for tokens within Smart Contracts. The SBT-20 standard expands this implementation adding smart functionality to Bitcoin tokens for all Bitcoin EVM scaling networks to adopt. Example functionalities SBT-20 provides:</p>
+  <ul>
+    <li>transfer tokens from one account to another</li>
+    <li>get the current token balance of an account</li>
+    <li>get the total supply of the token available on the network</li>
+    <li>approve whether an amount of token from an account can be spent by a third-party account</li>
+  </ul>
+  <p>If a Smart Contract implements the following methods and events it can be called an SBT-20 Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Bitcoin.</p>
+  <h3>METHODS</h3>
+  <pre>
+  function name() public view returns (string)
+  function symbol() public view returns (string)
+  function decimals() public view returns (uint8)
+  function totalSupply() public view returns (uint256)
+  function balanceOf(address _owner) public view returns (uint256 balance)
+  function transfer(address _to, uint256 _value) public returns (bool success)
+  function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)
+  function approve(address _spender, uint256 _value) public returns (bool success)
+  function allowance(address _owner, address _spender) public view returns (uint256 remaining)
+  </pre>
+  
+  <h3>EVENTS</h3>
+  <pre>
+  event Transfer(address indexed _from, address indexed _to, uint256 _value)
+  event Approval(address indexed _owner, address indexed _spender, uint256 _value)
+  </pre>
+
+  <h2>Examples</h2>
+  <p>Let's see how a Standard is so important to make things simple for us to inspect any SBT-20 Token Contract on Bitcoin. We just need the Contract Application Binary Interface (ABI) to create an interface to any SBT-20 Token. As you can see below we will use a simplified ABI, to make it a low friction example.</p>
+  
+  <h3>Web3.py Example</h3>
+</div>
+
+</body>
+</html>
