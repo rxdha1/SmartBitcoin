@@ -29,28 +29,29 @@ If a Smart Contract implements the following methods and events it can be called
 
 ### METHODS
 ```solidity
-function name() public view returns (string)
-function symbol() public view returns (string)
-function decimals() public view returns (uint8)
-function totalSupply() public view returns (uint256)
-function balanceOf(address _owner) public view returns (uint256 balance)
-function transfer(address _to, uint256 _value) public returns (bool success)
-function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)
-function approve(address _spender, uint256 _value) public returns (bool success)
-function allowance(address _owner, address _spender) public view returns (uint256 remaining)
+    function name() public view returns (string)
+    function symbol() public view returns (string)
+    function decimals() public view returns (uint8)
+    function totalSupply() public view returns (uint256)
+    function balanceOf(address _owner) public view returns (uint256 balance)
+    function transfer(address _to, uint256 _value) public returns (bool success)
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)
+    function approve(address _spender, uint256 _value) public returns (bool success)
+    function allowance(address _owner, address _spender) public view returns (uint256 remaining)
 
-This will create a clear separation between the code block and the regular text that follows it.
 
-#### EVENTS
+### EVENTS
 ```solidity
 event Transfer(address indexed _from, address indexed _to, uint256 _value)
 event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
-##### EXAMPLES
+### EXAMPLES
 Let's see how a Standard is so important to make things simple for us to inspect any SBT-20 Token Contract on Bitcoin. We just need the Contract Application Binary Interface (ABI) to create an interface to any SBT-20 Token. As you can see below we will use a simplified ABI, to make it a low friction example.
 
 ```py
 pip install web3.py
+
+### Web3.py Example
 
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
