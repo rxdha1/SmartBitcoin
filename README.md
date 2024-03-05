@@ -12,9 +12,9 @@ The SBT-20 introduces a standard for Fungible Tokens, in other words, they have 
 
 ## PREREQUISITES
 
-- Accounts
-- Smart Contracts
-- Token standards
+- [Account](https://ethereum.org/en/developers/docs/accounts/)
+- [Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/)
+- [Token standards](https://ethereum.org/en/developers/docs/standards/tokens/)
 
 ## BODY
 
@@ -46,7 +46,7 @@ event Transfer(address indexed _from, address indexed _to, uint256 _value)
 event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 ```
 
-### EXAMPLES
+### Interface
 Let's see how a Standard is so important to make things simple for us to inspect any SBT-20 Token Contract on Bitcoin. We just need the Contract Application Binary Interface (ABI) to create an interface to any SBT-20 Token. As you can see below we will use a simplified ABI, to make it a low friction example.
 
 #### First install Web3.py
@@ -117,6 +117,9 @@ print("===== %s =====" % symbol)
 print("Total Supply:", totalSupply)
 print("Addr Balance:", addr_balance)
 ```
+
+### Implementation Examples
+- [OpenZeppelin](
 
 #### SBT-20 Token in Solidity
 ```solidity
@@ -245,6 +248,20 @@ contract Silk {
     }
 }
 ```
+
+###  History:
+Historical links related to this standard:
+
+Original proposal from Vitalik Buterin: https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs/499c882f3ec123537fc2fccd57eaa29e6032fe4a
+Reddit discussion: https://www.reddit.com/r/ethereum/comments/3n8fkn/lets_talk_about_the_coin_standard/
+Original Issue #20: https://github.com/ethereum/EIPs/issues/20
+
+### Copyright:
+Copyright and related rights waived via CC0.
+
+### Citations:
+
+Fabian Vogelsteller <fabian@ethereum.org>, Vitalik Buterin <vitalik.buterin@ethereum.org>, "ERC-20: Token Standard," Ethereum Improvement Proposals, no. 20, November 2015. [Online serial]. Available: https://eips.ethereum.org/EIPS/eip-20, Ryda Almogtaba <admin@pickslabs.xyz>, "SBT-20: Token Standard," Smart Bitcoin Improvement Proposals No. 20, March 2023. [Online serial]. Available: https://www.smartbitcoin.cc
 
 
 
