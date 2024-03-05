@@ -1,6 +1,6 @@
-# Smart Bitcoin Standards
+# Smart Bitcoin Token Standards
 
-## BT-20 TOKEN STANDARD
+## SBT-20 TOKEN STANDARD
 
 ## INTRODUCTION
 
