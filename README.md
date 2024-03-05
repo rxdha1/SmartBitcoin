@@ -49,12 +49,12 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 ### EXAMPLES
 Let's see how a Standard is so important to make things simple for us to inspect any SBT-20 Token Contract on Bitcoin. We just need the Contract Application Binary Interface (ABI) to create an interface to any SBT-20 Token. As you can see below we will use a simplified ABI, to make it a low friction example.
 
-#### Web3.py
+#### First install Web3.py
 ```py
 pip install web3.py
 ```
 
-### Web3.py Example
+#### Web3.py Example
 ```py
 from web3 import Web3
 
@@ -118,7 +118,7 @@ print("Total Supply:", totalSupply)
 print("Addr Balance:", addr_balance)
 ```
 
-### SBT-20 Token in Solidity
+#### SBT-20 Token in Solidity
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
