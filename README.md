@@ -119,7 +119,7 @@ print("Addr Balance:", addr_balance)
 ```
 
 ### Implementation Examples
-- [OpenZeppelin](
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc20)
 
 #### SBT-20 Token in Solidity
 ```solidity
