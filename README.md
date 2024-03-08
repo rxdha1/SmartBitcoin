@@ -1,5 +1,7 @@
 # Smart Bitcoin Token Standards
 
+#About: 
+
 ## SBT-20 TOKEN STANDARD
 
 ## INTRODUCTION
