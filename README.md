@@ -1,4 +1,4 @@
-# Smart Bitcoin Token Standards
+# Smart Bitcoin Standards
 
 #About: 
 
