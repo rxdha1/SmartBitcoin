@@ -61,12 +61,12 @@ pip install web3.py
 from web3 import Web3
 
 
-w3 = Web3(Web3.HTTPProvider("https://cloudflare-eth.com"))
+w3 = Web3(Web3.HTTPProvider("https://cloudflare-eth.com")) [NEEDS TO BE UPDATED WITH https://cloudflare-btc.com"]
 
-dai_token_addr = "0x6B175474E89094C44Da98b954EedeAC495271d0F"     # DAI
-weth_token_addr = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"    # Wrapped ether (WETH)
+dai_token_addr = "0x6B175474E89094C44Da98b954EedeAC495271d0F"     # STABLE
+weth_token_addr = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"    # Wrapped
 
-acc_address = "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11"        # Uniswap V2: DAI 2
+acc_address = "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11"        # AVOSWAP V2: STABLE 2
 
 # This is a simplified Contract Application Binary Interface (ABI) of an ERC-20 Token Contract.
 # It will expose only the methods: balanceOf(address), decimals(), symbol() and totalSupply()
