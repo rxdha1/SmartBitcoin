@@ -2,6 +2,21 @@
 
 #About: 
 
+## General:
+With rise of viable EVM solutions directly on Bitcoin there are a few things to consider. These "EVM" style tokens, aka ERC20, ERC721, etc will have unique programmability capabilities. They will be "Smart Tokens" compared to the existing BRC20 tokens which are made to be very simple.  These Smart Tokens will need to have a new identity.  And let's face it, "B"RC20 is already taken so we wanted to define them as Smart Bitcoin Tokens or SBTs.  The term maybe inspired in branding is actually very discriptive of this new asset class that is starting to mature in Bitcoin.
+
+### Smart Bitcoin Tokens:
+The SBTs differ from BRC Tokens and ERC Tokens in sometimes suddle but important ways. For example:
+SBTs can be minted from a Smart Contract without the need for them to be demoniated in Sats Like BRC tokens.
+SBTs are a new Smart Token class that is directly on top of Bitcoin, the most decentralized and secure blockchain unlike ERC tokens which are on ETH POS Chain [No Shade there, I am an etherean :]
+SBTs have many different forms fungible, nonfungible, hybrid, dynamic, recursive, and more.
+SBTs have native staking capabilities on VMs (Virtual Machines) on Bitcoin.
+SBTs are wildly programmable unlike BRC and other Meta tokens on Bitcoin currently.
+SBTs offer a new path for creators and projects to launch tokens with sofisticated functions such as presales, vesting, voting, and others.
+SBTs are completely permissionless and on-chain. No need for external indexers.
+
+SBTs generally work very similarily to ERC tokens on ETH. Using token case studies from the ETH Defi narratives we've adopted some examples here:[under construction]
+
 ## SBT-20 TOKEN STANDARD
 
 ## INTRODUCTION
@@ -252,7 +267,7 @@ contract Silk {
 ```
 
 ###  History:
-Historical links related to this standard:
+Historical links related to this standard and the inspiration for it:
 
 Original proposal from Vitalik Buterin: https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs/499c882f3ec123537fc2fccd57eaa29e6032fe4a
 Reddit discussion: https://www.reddit.com/r/ethereum/comments/3n8fkn/lets_talk_about_the_coin_standard/
