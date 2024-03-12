@@ -3,10 +3,10 @@
 #About: 
 
 ## General:
-With rise of viable EVM solutions directly on Bitcoin there are a few things to consider. These "EVM" style tokens, aka ERC20, ERC721, etc will have unique programmability capabilities. They will be "Smart Tokens" compared to the existing BRC20 tokens which are made to be very simple.  These Smart Tokens will need to have a new identity.  And let's face it, "B"RC20 is already taken so we wanted to define them as Smart Bitcoin Tokens or SBTs.  The term maybe inspired in branding is actually very discriptive of this new asset class that is starting to mature in Bitcoin.
+With rise of viable "E"VM solutions directly on Bitcoin there are a few things to consider. These Virtual Machine networks on Bitcoin are sure to have their own tokens.  Since these VM Bitcoin networks are adoping the EVM aka Ethereum Virtual Machine they will have "EVM" style tokens, aka ERC20, ERC721, etc will have unique programmability capabilities. These tokens will be more of "Smart Bitcoin Tokens" compared to the existing BRC20 tokens which are made to be very simple and non programmable.  The Smart Bitcoin Tokens will need to have a new identity.  And let's face it, "B"RC20 is already taken so we wanted to define them as what they are, Smart Bitcoin Tokens or SBTs.  The term maybe inspired in branding is actually very discriptive of this new asset class that is starting to mature in Bitcoin.
 
 ### Smart Bitcoin Tokens:
-The SBTs differ from BRC Tokens and ERC Tokens in sometimes suddle but important ways. For example:
+SBTs differ from BRC Tokens and ERC Tokens in sometimes suddle but important ways. For example:
 SBTs can be minted from a Smart Contract without the need for them to be demoniated in Sats Like BRC tokens.
 SBTs are a new Smart Token class that is directly on top of Bitcoin, the most decentralized and secure blockchain unlike ERC tokens which are on ETH POS Chain [No Shade there, I am an etherean :]
 SBTs have many different forms fungible, nonfungible, hybrid, dynamic, recursive, and more.
@@ -265,10 +265,19 @@ contract Silk {
     }
 }
 ```
+### Coming Soon:
+SBT721, SBT1155, SBT404
+Tooling and web3/eth packages reconstruction
+Creating BIPs system in Repo.
+MEV in VM networks on Bitcoin
+Scaling VM networks on Bitcoin
+Virtual Machines on Bitcoin Usecases
 
 ###  History:
 Historical links related to this standard and the inspiration for it:
 
+[https://bitcoin.org/en/bitcoin-paper](https://bitcoinpaper.org/bitcoin.pdf)
+https://github.com/bitcoin/bips
 Original proposal from Vitalik Buterin: https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs/499c882f3ec123537fc2fccd57eaa29e6032fe4a
 Reddit discussion: https://www.reddit.com/r/ethereum/comments/3n8fkn/lets_talk_about_the_coin_standard/
 Original Issue #20: https://github.com/ethereum/EIPs/issues/20
