@@ -103,7 +103,7 @@ decimals = dai_contract.functions.decimals().call()
 totalSupply = dai_contract.functions.totalSupply().call() / 10**decimals
 addr_balance = dai_contract.functions.balanceOf(acc_address).call() / 10**decimals
 
-#  DAI
+#  STABLE
 print("===== %s =====" % symbol)
 print("Total Supply:", totalSupply)
 print("Addr Balance:", addr_balance)
@@ -114,7 +114,7 @@ decimals = weth_contract.functions.decimals().call()
 totalSupply = weth_contract.functions.totalSupply().call() / 10**decimals
 addr_balance = weth_contract.functions.balanceOf(acc_address).call() / 10**decimals
 
-#  WETH
+#  WRAPPED
 print("===== %s =====" % symbol)
 print("Total Supply:", totalSupply)
 print("Addr Balance:", addr_balance)
