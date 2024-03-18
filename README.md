@@ -29,6 +29,7 @@ The SBT-20 introduces a standard for Fungible Tokens, in other words, they have 
 
 ## PREREQUISITES
 
+- Learn about the OG EVM and concepts.
 - [Account](https://ethereum.org/en/developers/docs/accounts/)
 - [Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/)
 - [Token standards](https://ethereum.org/en/developers/docs/standards/tokens/)
