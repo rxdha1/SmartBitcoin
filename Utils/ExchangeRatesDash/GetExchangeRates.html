@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Get Multiple Exchange Rates</title>
+    <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+  <div id='form'>
+    <h2>Get Multiple Exchange Rates</h2>
+    <div id="input-container">
+        <div class="input-set">
+            <input type="text" class="currency" placeholder="Enter currency (e.g. BTC)" value="BTC" />
+            <input type="text" class="base-pair" placeholder="Enter base pair (e.g. EUR)" value="USD" />
+        </div>
+        <div class="input-set">
+            <input type="text" class="currency" placeholder="Enter currency (e.g. BTC)" value="ETH" />
+            <input type="text" class="base-pair" placeholder="Enter base pair (e.g. EUR)" value="EUR" />
+        </div>
+    </div>
+    <button id="add-input">Add More</button>
+    <button id="fetch-rates">Fetch Exchange Rates</button>
+  </div>
+  <div id="rates-container"></div>
+</body>
+
+</html>

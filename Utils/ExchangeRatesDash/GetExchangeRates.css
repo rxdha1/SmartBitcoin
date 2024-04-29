@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #4f37fd;
+    text-align: center;
+  }
+  
+  #fetch-rates, #add-input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ccd9a;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .input-set {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-set input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  #rates-container {
+    margin-top: 10px;
+    font-size: 20px;
+  }
