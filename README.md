@@ -1266,11 +1266,9 @@ bc1p54hass6uhh8q55ucqlyn8pq00yvp4r5d7vstwxel99hawq2zcerq2jelet
 ```
 MAINNET SBTs
 ```
-EVM
 0x0B2b5A6B723524BBD8e463246ea45FD401c0E079
 ```
 ```
-SOV EVM
 bc1p54hass6uhh8q55ucqlyn8pq00yvp4r5d7vstwxel99hawq2zcerq2jelet
 ```
 
