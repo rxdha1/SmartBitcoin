@@ -1,5 +1,5 @@
 # Smart Bitcoin Tokens (SBTs) Standards
-(![Alt Text](https://i.ibb.co/KmjJcrn/SMART-BITCOIN.png))
+![Alt Text](https://i.ibb.co/KmjJcrn/SMART-BITCOIN.png)
 
 ### General:
 With rise of viable "E"VM solutions directly on Bitcoin there are a few things to consider. These Virtual Machine networks on Bitcoin are sure to have their own tokens.  Since these VM Bitcoin networks are adoping the EVM aka Ethereum Virtual Machine they will have "EVM" style tokens, aka ERC20, ERC721, etc will have unique programmability capabilities. These tokens will be more of "Smart Bitcoin Tokens" compared to the existing BRC20 tokens which are made to be very simple and non programmable.  The Smart Bitcoin Tokens will need to have a new identity.  And let's face it, "B"RC20 is already taken so we wanted to define them as what they are, Smart Bitcoin Tokens or SBTs.  The term maybe inspired in branding is actually very discriptive of this new asset class that is starting to mature in Bitcoin.
