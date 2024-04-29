@@ -1278,6 +1278,9 @@ SIGNET BTC
 ```
 tb1pf5rag20sez3rlplyec9u56n234g96q93xrk9wwddmrlh5t7a23tqca7lxv
 ```
+```
+0x1deDA121832F1B532BD90F470E76B2bdEf8C293a
+```
 
 SIGNET SBTS ON ANY BITCOIN EVM.
 ```
