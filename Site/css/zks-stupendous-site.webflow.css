@@ -1,0 +1,319 @@
+:root {
+  --light-cyan: #d4f6f9;
+  --black: #0d212a;
+}
+
+.section {
+  padding: 50px;
+}
+
+.section.full-height {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.section.full-height.dark {
+  perspective: 1200px;
+  color: #fff;
+  background-image: radial-gradient(circle, #08181f, #041116);
+  overflow: hidden;
+}
+
+.hero-text-main {
+  opacity: .85;
+  filter: blur(.5px);
+  color: #d4f6f9;
+  text-transform: uppercase;
+  text-shadow: 0 0 19px rgba(33, 129, 153, .41), 0 0 7px rgba(212, 246, 249, .84);
+  font-family: Montserrat, sans-serif;
+  font-size: 10vw;
+  font-weight: 500;
+  line-height: 1.2em;
+  transition: text-shadow .2s;
+  position: absolute;
+}
+
+.hero-text-main:hover {
+  text-shadow: 0 0 19px rgba(33, 129, 153, .89), 0 0 8px #d4f6f9;
+}
+
+.control-3d {
+  color: #000;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.hero-text-mid {
+  opacity: .5;
+  filter: blur(.5px);
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  transform-style: preserve-3d;
+  background-image: url('../images/Air-force-final-fast_1Air-force-final-fast.gif');
+  background-position: 50%;
+  background-size: 23px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Montserrat, sans-serif;
+  font-size: 10vw;
+  font-weight: 500;
+  line-height: 1.2em;
+  position: absolute;
+  transform: translate3d(0, 0, -100px);
+}
+
+.hero-text-back {
+  opacity: .2;
+  filter: blur(1px);
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  font-family: Montserrat, sans-serif;
+  font-size: 10vw;
+  font-weight: 500;
+  line-height: 1.2em;
+  position: absolute;
+  transform: translate3d(0, 0, -200px);
+}
+
+.text-wrap {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+
+.description-text {
+  opacity: .64;
+  color: var(--light-cyan);
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  margin-top: 51px;
+  margin-bottom: 90px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  transform: translate3d(0, 0, -100px);
+}
+
+.button {
+  border: 1px solid var(--light-cyan);
+  opacity: .7;
+  color: var(--light-cyan);
+  letter-spacing: 4px;
+  text-indent: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 4px rgba(212, 246, 249, .47);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  margin-bottom: 40px;
+  padding: 10px 42px;
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  transition: opacity .5s, transform .5s, box-shadow .5s;
+  box-shadow: 0 0 6px rgba(212, 246, 249, .27), inset 0 0 7px rgba(212, 246, 249, .88);
+}
+
+.button:hover {
+  opacity: .88;
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(212, 246, 249, .24), inset 0 0 17px rgba(212, 246, 249, .89);
+}
+
+.lottie-wrap {
+  opacity: .07;
+  transform-style: preserve-3d;
+  width: 120vw;
+  height: 110vh;
+  margin-top: -20vh;
+  margin-bottom: -14vh;
+  margin-left: -10vw;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: translate3d(0, 0, -1000px);
+}
+
+.lottie-wrap.near {
+  filter: blur(2px);
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 350px);
+}
+
+.lottie-wrap.mid {
+  transform-style: preserve-3d;
+  transform: rotateX(0)rotateY(180deg)rotateZ(0)translate(0);
+}
+
+.lottie {
+  width: 100%;
+  height: 100%;
+}
+
+.inline-link {
+  color: var(--light-cyan);
+  border-bottom: 1px solid rgba(212, 246, 249, 0);
+  text-decoration: none;
+  transition: border-color .2s, letter-spacing .2s, text-shadow .2s;
+}
+
+.inline-link:hover {
+  border-bottom-color: #d4f6f9;
+}
+
+.link {
+  color: var(--light-cyan);
+}
+
+.footer-para {
+  opacity: .28;
+  color: var(--light-cyan);
+  text-align: center;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 14px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.last-letter {
+  letter-spacing: 0;
+}
+
+.sub-head {
+  margin-bottom: 10px;
+}
+
+.sub-head.byline {
+  font-size: 13px;
+}
+
+.divider-line {
+  background-color: var(--light-cyan);
+  width: 100px;
+  height: 1px;
+  margin: 20px auto;
+}
+
+.description-text-copy {
+  opacity: .64;
+  color: var(--light-cyan);
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  margin-top: 103px;
+  margin-bottom: 90px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  transform: translate3d(0, 0, -100px);
+}
+
+.footer-para-copy {
+  opacity: .28;
+  color: var(--light-cyan);
+  text-align: center;
+  max-width: 60ch;
+  margin-bottom: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 14px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.form {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  text-align: center;
+  mix-blend-mode: luminosity;
+  flex-flow: column;
+  flex: 0 auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-self: auto;
+  align-items: stretch;
+  width: 200%;
+  height: 200%;
+  margin-left: 146px;
+  margin-right: 145px;
+  font-family: Exo, sans-serif;
+  display: flex;
+}
+
+.text-block {
+  color: #06141b;
+}
+
+.text-block-copy {
+  color: #06141b;
+  font-family: Exo, sans-serif;
+}
+
+.text-block-2 {
+  color: red;
+}
+
+.submit-button {
+  text-align: center;
+  font-family: Exo, sans-serif;
+}
+
+.field-label {
+  color: #b5d5d8;
+  font-family: Exo, sans-serif;
+}
+
+.field-label-2 {
+  color: #b8d7db;
+  font-family: Exo, sans-serif;
+}
+
+.form-block {
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: -1px;
+  font-family: Exo, sans-serif;
+  display: flex;
+  position: static;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-text-main, .hero-text-mid, .hero-text-back {
+    font-size: 13vw;
+  }
+}
+
+
