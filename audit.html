@@ -45,7 +45,14 @@ pointer-events:none;
         <div class="lottie" data-w-id="4d028617-db74-f7f9-94aa-a0aac3b1351a" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/60270f1e509c08cd60591795/60272973fc7984ddc16d46a6_airforce%20particles%204.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="19.95" data-duration="0"></div>
       </div>
       <div class="form-block w-form">
-        <form id="wf-form-Audit-Form" name="wf-form-Audit-Form" data-name="Audit Form" method="get" class="form" data-wf-page-id="66733082d11cda8d1178e889" data-wf-element-id="992cac08-0d62-633b-60f0-4d57c2f11189"><label for="name" class="field-label">Project Name You Want To Audit:</label><input class="w-input" maxlength="256" name="name" data-name="Name" placeholder="e.g. Smart Bitcoin" type="text" id="name"><label for="name-2" class="field-label">Project Github: [For Private Repos: Add audit@smartbitcoin.cc as Collaborator to expedite process]</label><input class="w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="e.g. https://github.com/smartbitcoin/SmartBitcon" type="text" id="name-2"><label for="email" class="field-label-2">Project Email address:</label><input class="w-input" maxlength="256" name="email" data-name="Email" placeholder="e.g. Audit@smartbitcoin.cc" type="email" id="email" required=""><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+        <form action="https://formspree.io/f/movaalap" method="POST" class="form">
+          <label for="email" class="field-label">Your email:</label>
+          <input type="email" name="email" class="w-input" maxlength="256" placeholder="e.g. Audit@smartbitcoin.cc" required="">
+          <label for="message" class="field-label">Your message:</label>
+          <textarea name="message" class="w-input" maxlength="5000" placeholder="Enter your message here"></textarea>
+          <!-- your other form fields go here -->
+          <button type="submit" class="submit-button w-button">Send</button>
+        </form>
         <div class="w-form-done">
           <div class="text-block-copy">Great! You&#x27;ll receive your Smart Bitcoin Project Audit Status and Next Steps via email in 24-48 hours.</div>
         </div>
